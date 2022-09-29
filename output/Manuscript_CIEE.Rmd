@@ -7,16 +7,6 @@ csl: https://www.zotero.org/styles/ecology-letters
 bibliography: new_export-data.bib
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-
-library(tinytex)
-library(tidyverse)
-library(markdown)
-library(rmarkdown)
-
-```
-
 **Title**: Phytobiomes rule: starting off with height and treatments
 
 Laura Super^1\*^
@@ -51,6 +41,9 @@ Wow happy this is done :)!
 
 # References
 
+::: {#refs}
+:::
+
 # Tables
 
 None for this demo!
@@ -70,3 +63,5 @@ boxplot(data_PREE$Heightwk9_cm ~ data_PREE$Treatment, xlab = "Treatment", ylab =
 ```
 
 # Appendices
+
+Wow all done!
