@@ -24,6 +24,7 @@ boxplot(data_PREE$Heightwk9_cm ~ data_PREE$Treatment, xlab = "Treatment", ylab =
 
 ## Save output as jpeg
 jpeg('output/phytobiome_height.jpeg')
+jpeg('analysis/phytobiome_height.jpeg')
 boxplot(data_PREE$Heightwk9_cm ~ data_PREE$Treatment, xlab = "Treatment", ylab = "Height (cm)") # plot plant height versus treatments
 dev.off()
 
