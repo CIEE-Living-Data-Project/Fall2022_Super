@@ -1,5 +1,5 @@
 ---
-title: "Phytobiomes rule: starting off with height and treatments"
+title: "Manuscript submission"
 author: "Laura Super"
 geometry: margin=1in
 output: pdf_document
@@ -11,7 +11,7 @@ bibliography: new_export-data.bib
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**Title**: Phytobiomes rule: starting off with height and treatments
+# Title: Phytobiomes rule: starting with height given treatments
 
 Laura Super^1\*^
 
@@ -25,7 +25,9 @@ Laura Super^1\*^
 
 This is on the phytobiome. It makes a simple graph! It is for a PREE demo that is short and sweet.
 
+
 *Keywords: phytobiome, nitrogen, warming, height*
+
 
 # Introduction
 
@@ -42,17 +44,8 @@ Plant performance was impacted by the treatments (Figure 1)
 
 # Discussion
 
-Wow happy this is done :)!
+Plants were impacted by treatment. Thank you for looking at this demo for PREE!
 
-# Methods
-
-This project has microbiome and plant data.
-
-# Results
-
-Plant performance was impacted by the treatments.
-
-# Discussion
 
 # References
 
