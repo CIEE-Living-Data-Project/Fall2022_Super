@@ -9,3 +9,7 @@ This is a simple project to practice reproducible research techniques. It is sho
 # See main script for most of code: Material for the assignment!
 
 Main_script.R
+
+# OSF read only link!
+
+https://osf.io/exzua/?view_only=be847ac008ef406a9b29291fe7bc0ddf
