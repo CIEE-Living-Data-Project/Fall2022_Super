@@ -1,6 +1,7 @@
 #### Main script for PREE CIEE course 
 #### Laura Super
 #### September 28, 2022
+### All of the contents use the license CC BY-NC 4.0
 
 #### Create a graph in a manuscript ####
 
