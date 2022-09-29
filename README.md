@@ -2,7 +2,7 @@
 
 This is a simple project to practice reproducible research techniques. It is short and sweet and makes a graph, has licenses, readme files, etc.
 
-Fall2022 for CIEE :)
+Fall2022 for CIEE PREE module :)
 
 Material for the assignment!
 
