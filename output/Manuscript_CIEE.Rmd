@@ -1,11 +1,15 @@
 ---
-title: "Manuscript"
+title: "Phytobiomes rule"
 author: "Laura Super"
-geometry: margin=1in
 output: pdf_document
-csl: https://www.zotero.org/styles/ecology-letters
-bibliography: new_export-data.bib
+csl: "ecology-letters.csl"
+bibliography: "new_export-data.bib"
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE)
+
+```
 
 **Title**: Phytobiomes rule: starting off with height and treatments
 
@@ -35,6 +39,14 @@ This project has microbiome and plant data.
 
 Plant performance was impacted by the treatments. Run code!
 
+```{r message=FALSE, echo=FALSE}
+data_PREE <- read.csv("../data/CIEE_Course_Teaching_Nema_Phytobiome.csv") # Teaching phytobiome data
+
+## Make graph
+boxplot(data_PREE$Heightwk9_cm ~ data_PREE$Treatment, xlab = "Treatment", ylab = "Height (cm)") # plot plant height versus treatments
+
+```
+
 # Discussion
 
 Wow happy this is done :)!
@@ -49,18 +61,6 @@ Wow happy this is done :)!
 None for this demo!
 
 # Figures
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-
-## Read file into R
-data_PREE <- read.csv("../data/CIEE_Course_Teaching_Nema_Phytobiome.csv") # Teaching phytobiome data
-head(data_PREE) # head of data
-
-## Make graph
-boxplot(data_PREE$Heightwk9_cm ~ data_PREE$Treatment, xlab = "Treatment", ylab = "Height (cm)") # plot plant height versus treatments
-
-```
 
 # Appendices
 
