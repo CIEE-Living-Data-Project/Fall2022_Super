@@ -24,18 +24,18 @@ library(tidyverse)
 library(markdown)
 library(rmarkdown)
 
-## 3. Use main script in code folder to do the following:
-# Read file into R
+## 3. Use main script to call Run_graph.R in code folder to do the following:
+# Read data file into R
 # Make graph
 # Save output as jpeg
 source("code/Run_graph.R")
 dev.off()
 
-## Make a pre-registration see code folder
+## 4. Make a pre-registration file into code folder
 # Use code Preregistration.Rmd to run:
 rmarkdown::render("code/Preregistration.Rmd")
 
-## Make a manuscript using .csl and .bib files in output folder
+## 5. Make a manuscript using .csl and .bib files in output folder
 # Move to output folder now for Manuscript_CIEE_Rmd script
 
 
