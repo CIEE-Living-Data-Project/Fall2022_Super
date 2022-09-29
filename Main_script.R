@@ -35,9 +35,10 @@ rmarkdown::render("code/Preregistration.Rmd")
 source("code/Run_graph.R")
 dev.off()
 
-## 5. Make a manuscript using .csl and .bib files in **output folder**
-# Move to output folder now for Manuscript_CIEE_Rmd script
+## 5. Make a manuscript using .csl and .bib files in **code folder**
+rmarkdown::render("code/v1_Manuscript_CIEE.Rmd")
 
+### 6. When finshed manually move output to **output folder**
 
 
 
