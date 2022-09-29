@@ -5,3 +5,7 @@ This is a simple project to practice reproducible research techniques. It is sho
 Fall2022 for CIEE :)
 
 Material for the assignment!
+
+# See main script for most of code:
+
+Main_script.R
