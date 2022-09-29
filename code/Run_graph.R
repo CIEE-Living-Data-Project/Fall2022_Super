@@ -1,5 +1,5 @@
 ## Read file into R
-data_PREE <- read.csv("data/CIEE_Course_Teaching_Nema_Phytobiome.csv") # Teaching phytobiome data
+data_PREE <- read.csv("/data/CIEE_Course_Teaching_Nema_Phytobiome.csv") # Teaching phytobiome data
 head(data_PREE) # head of data
 
 ## Make graph
