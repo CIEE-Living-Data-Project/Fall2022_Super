@@ -37,15 +37,8 @@ This project has microbiome and plant data.
 
 # Results
 
-Plant performance was impacted by the treatments. Run code!
+Plant performance was impacted by the treatments (Figure 1)
 
-```{r message=FALSE, echo=FALSE}
-data_PREE <- read.csv("../data/CIEE_Course_Teaching_Nema_Phytobiome.csv") # Teaching phytobiome data
-
-## Make graph
-boxplot(data_PREE$Heightwk9_cm ~ data_PREE$Treatment, xlab = "Treatment", ylab = "Height (cm)") # plot plant height versus treatments
-
-```
 
 # Discussion
 
@@ -61,6 +54,15 @@ Wow happy this is done :)!
 None for this demo!
 
 # Figures
+
+```{r message=FALSE, echo=FALSE}
+data_PREE <- read.csv("../data/CIEE_Course_Teaching_Nema_Phytobiome.csv") # Teaching phytobiome data
+
+## Make graph
+boxplot(data_PREE$Heightwk9_cm ~ data_PREE$Treatment, xlab = "Treatment", ylab = "Height (cm)") # plot plant height versus treatments
+
+```
+Figure 1. Plant performance waas impacted by treatment.
 
 # Appendices
 
